@@ -1,0 +1,3 @@
+Question 1. What is difference between UI and UX? Explain in your own words.
+Question 2. Who is frontend developer? Explain role and responsibitily in your own words.
+Question 3. Who is backend developer? Explain role and responsibitily in your own words.
