@@ -5,7 +5,7 @@ const register = async (req,res)=>{
 
 	try {
 		if(!name || !email || !password){
-			res.status(400).json({
+			return res.status(400).json({
 				success:false,
 				message:"All fields are madantory"
 			})
@@ -14,7 +14,7 @@ const register = async (req,res)=>{
 		const checkUser = await User.findOne({email})
 	
 		if(checkUser){
-			res.status(400).json({
+			return res.status(400).json({
 				success:false,
 				message:"User already exists"
 			})
@@ -41,7 +41,42 @@ const register = async (req,res)=>{
 	
 }
 
-const login =()=>{
+const login = async (req,res)=>{
+	
+	const {email,password} = req.body
+	console.log(email,password);
+
+	try {
+		const user = await User.findOne({email})
+	
+		if(!user){
+			return res.status(400).json({
+				success:false,
+				message:"No account associates with this email."
+			})
+		}
+		
+		if(password != user.password){
+			return res.status(400).json({
+				success:false,
+				message:"Invalid password."
+			})
+		}
+	
+		user.password = undefined
+	
+		res.status(200).json({
+			success:true,
+			message:"User login successful",
+			user
+		})
+		
+	} catch (error) {
+		res.status(400).json({
+			success:false,
+			message:error.message
+		})
+	}
 
 }
 
