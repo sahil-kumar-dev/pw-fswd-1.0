@@ -1,0 +1,19 @@
+Question 1. What is the internet? Explain in your own words.
+Question 1. What is a web browser? Explain in your own words.
+
+Answer: A web bronwser is a software that allows a user to access and interact with the content available on the internet.
+
+
+Question 1. What is a browser engine? Explain in your own words.
+
+Answer: A browser engine is component of web browser resposible for interpreting and displaying the web content . It translates the html and css file and show in a pretty format.
+
+
+Question 1. What is a static site? Explain in your own words.
+
+Answer: A static website is type of website whose content remains fixed or doesn't change on the user interaction, it consists of simple html , css and js , it loads faster than the dynamic websites.
+
+
+Question 1. What is a dynamic site? Explain in your own words.
+
+Answer: A dynamic website is type of website where the content is generated on the response of user interaction from the databse. It has lots of features.
