@@ -1,0 +1,20 @@
+Question 1. What is postion properties in css and its types.
+
+Answer: 
+
+
+Question 2. How many types of postion are there in css.
+
+Answer: There are mainly five types of postion in css
+ i) Relative
+ ii) Absolute
+ iii) Static
+ iv) Fixed
+ v) Sticky
+
+
+Question 3. What is z-index and why to use it.
+
+Answer: Z index sets the z-axis value of an element. We use it to overlap the elements one over the
+other, element with higher z index will be visible and in front, and the element with lower z index will be 
+at the last.
