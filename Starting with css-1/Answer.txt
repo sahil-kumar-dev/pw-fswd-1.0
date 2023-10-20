@@ -1,0 +1,25 @@
+Question 1. Why Css selectors are used in HTML ?
+
+Answer: CSS selectors are used in html to apply styling and formatting . 
+
+
+Question 2. What are the different types of selectors in CSS?
+
+Answer: Different types of css selectors are :
+
+Element selector: These target specific html elements like h1, div, p.
+
+Class selector: These selector target specific element with the class attribute like .active
+
+Id selector: These selector target specific element with id attribute like #active.
+
+attribute selector: these selector target the elements with the attribute like type=password, href, target.
+
+child selector : these selector target the elements that are direct child. div> h1
+
+
+Question 3. How do you include external fonts and apply them?
+
+Answer: To apply the external fonts we just need to fist select the external fonts from the internet
+, then copy their link tag and paste it to the head tag of our html file , the give the font family
+to the element that we want to apply the fonts.
