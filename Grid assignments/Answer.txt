@@ -1,0 +1,41 @@
+Question 1. What is Grid?
+
+Answer: Grid, in the context of web design and layout, refers to CSS Grid Layout, a two-dimensional layout system that allows you to create complex and flexible grid-based layouts in web pages. It enables you to divide a web page into rows and columns, defining how elements are positioned and sized within the grid. CSS Grid Layout is a powerful tool for designing responsive and structured web layouts.
+
+
+Question 2. What is difference between flex and grid?
+
+Answer:Flexbox (Flexible Box Layout):
+
+Primarily designed for one-dimensional layouts, such as arranging items in a row or a column.
+It is great for aligning and distributing items within a container along a single axis, either horizontally or vertically.
+Suited for creating flexible and dynamic layouts when the size of the items is unknown.
+Perfect for elements like navigation menus, toolbars, and aligning items within a container.
+
+
+Grid (CSS Grid Layout):
+
+Designed for two-dimensional layouts, enabling the creation of both rows and columns.
+Allows you to define precise grid lines for both rows and columns and position items within the resulting cells.
+Best for complex layouts and grids where you need to align elements both horizontally and vertically.
+Ideal for designing overall page structures, including main content areas and sidebars.
+
+
+Question 3. How can you define rows and column for your grid?
+
+Answer: grid-template-rows: This property specifies the size and structure of the rows in the grid. You can define row sizes using various units (e.g., pixels, percentages, fr units) or use keywords like auto to make rows size dynamically.
+
+grid-template-columns: This property defines the size and structure of the columns in the grid. You can set column sizes in a similar manner as with grid-template-rows. 
+
+
+Question 4. List and two properties of grid item and grid container.
+
+Answer: display: To create a grid container, you set the display property to grid or inline-grid. This property defines an element as a grid container.
+
+grid-template-areas: This property allows you to assign names to grid areas within the container. By specifying a grid-template and assigning names to areas, you can easily control the placement of grid items.
+
+Grid Item Properties:
+
+grid-row and grid-column: These properties determine on which rows and columns a grid item is placed within the grid. You can use line numbers or grid area names to position items explicitly.
+
+grid-area: This property enables you to place a grid item into a specific grid area by referencing the names defined using grid-template-areas. It simplifies item placement within the grid layout.
