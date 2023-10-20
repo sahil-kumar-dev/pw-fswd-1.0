@@ -1,0 +1,61 @@
+Question 1. What is pseudo class?
+
+Answer: A pseudo-class in CSS is a keyword that is used to define a special state of an HTML element. Pseudo-classes are used to apply styles to elements based on their current or user-interaction state, such as when an element is hovered over, clicked, or the first child of its parent element. Pseudo-classes are preceded by a colon (:) and added to the selector to define specific conditions for styling.
+
+Example: :hover, ::after, ::before, ::last-child
+
+Question 2. What are gradients in css?
+
+Answer: Gradients in CSS allow you to create smooth transitions between two or more specified colors, creating a visually appealing background or foreground effect. CSS gradients are defined using the linear-gradient or radial-gradient properties. Gradients can be used for various design elements, such as backgrounds, buttons, and text.
+
+example: linear gradient, radial gradient etc.
+
+
+Question 3. What are the different types of transition in css.
+
+Answer: 
+Question 1: What is a pseudo-class?
+
+A pseudo-class in CSS is a keyword that is used to define a special state of an HTML element. Pseudo-classes are used to apply styles to elements based on their current or user-interaction state, such as when an element is hovered over, clicked, or the first child of its parent element. Pseudo-classes are preceded by a colon (:) and added to the selector to define specific conditions for styling.
+
+Examples of pseudo-classes include:
+
+:hover: Used to style an element when the mouse pointer is placed over it.
+:active: Styles an element when it is being clicked.
+:first-child: Selects the first child of its parent element.
+:nth-child(n): Selects elements based on their position within their parent element.
+Here's an example of using a pseudo-class to change the color of a link when it's being hovered over:
+
+css
+Copy code
+a:hover {
+  color: red;
+}
+Question 2: What are gradients in CSS?
+
+Gradients in CSS allow you to create smooth transitions between two or more specified colors, creating a visually appealing background or foreground effect. CSS gradients are defined using the linear-gradient or radial-gradient properties. Gradients can be used for various design elements, such as backgrounds, buttons, and text.
+
+linear-gradient: Creates a gradient that transitions from one color to another in a straight line.
+Example:
+
+css
+Copy code
+background: linear-gradient(to right, #ff0000, #0000ff);
+radial-gradient: Creates a gradient that radiates from a central point outward in a circular or elliptical pattern.
+Example:
+
+css
+Copy code
+background: radial-gradient(circle, #ff0000, #0000ff);
+Gradients are highly customizable, allowing you to define the starting and ending points, the angle, and even add multiple color stops for more complex effects.
+
+Question 3: What are the different types of transitions in CSS?
+
+Answer: In CSS, transitions are used to smoothly animate changes in property values over a specified duration. Transitions can be applied to a wide range of CSS properties, such as color, size, position, and more. There are various types of transitions in CSS:
+
+Property Transition: This is the most common type of transition. It involves animating a single CSS property from one value to another. For example, changing the color or size of an element on hover.
+
+Transform Transitions: CSS transforms (e.g., translate, scale, rotate) can be animated smoothly. For example, you can create a smooth animation when an element is rotated.
+
+Opacity Transitions: You can smoothly animate the opacity of an element.
+
