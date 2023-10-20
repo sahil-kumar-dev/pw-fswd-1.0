@@ -1,0 +1,14 @@
+Question 1. What in CSS and why we use it?
+
+Answer: CSS stands for cascading style sheet and we use it to style our html pages and to make it user friendly.
+
+Question 2. What are the different ways to bring CSS into an HTML file?
+
+Answer: There are three ways to bring css in a html file
+i) Inline styling
+ii) Internal css
+iii) External css
+
+Question 3. What do you mean by specificity in CSS?
+
+Answer: Specificity is a set of rules that determine which styles are applied to an HTML element when there are multiple conflicting CSS rules targeting the same element. 
