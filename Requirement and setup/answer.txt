@@ -1,0 +1,7 @@
+Question: List all the tools you might you as web developer.
+
+Answer: As a web developer the tools i might use are a code editor like vs code, postman to handle apis, mongodb, javasript and more. 
+
+Question: What are some of the features of pw skills online Lab? Explain how they are useful.
+
+Answer: Pw skills online lab have all the features more than noraml code editor, here we can write any domian code of any language, in a low end device like react, html , css, java, javascript all the languages.
