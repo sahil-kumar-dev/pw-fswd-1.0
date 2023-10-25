@@ -19,7 +19,7 @@ Web Workers: Web Workers allow for multithreading in JavaScript, improving perfo
 
 Question 2: What are semantic tags? Give some examples.
 
-Semantic tags are HTML elements that provide meaning and structure to the content within a web page. They help describe the role or purpose of different parts of a document, making it easier for both browsers and developers to understand the content. Some examples of semantic HTML5 tags include:
+Answer: Semantic tags are HTML elements that provide meaning and structure to the content within a web page. They help describe the role or purpose of different parts of a document, making it easier for both browsers and developers to understand the content. Some examples of semantic HTML5 tags include:
 
 <header>: Represents the introductory content at the beginning of a section or a page, typically containing logos, navigation menus, and headings.
 
