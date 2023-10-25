@@ -1,0 +1,57 @@
+Question 1: What are the new things introduced in HTML5?
+
+Answer: HTML5 introduced a variety of new features and elements to enhance the capabilities of web development. Some of the key new things introduced in HTML5 include:
+
+New Structural Elements: HTML5 introduced several structural elements that help organize and define the content of web pages more meaningfully, such as <header>, <nav>, <section>, <article>, and <footer>.
+
+Multimedia Elements: HTML5 includes native support for multimedia elements, such as <audio> and <video>, making it easier to embed audio and video content directly into web pages without the need for third-party plugins.
+
+Canvas and SVG: HTML5 introduced the <canvas> element, which allows for dynamic, client-side rendering of graphics, animations, and interactive content. It also added support for Scalable Vector Graphics (SVG) for vector-based graphics.
+
+Form Enhancements: HTML5 introduced several form elements and attributes, like <input> types such as email, URL, and range, as well as form validation and the <datalist> element for autocomplete.
+
+Local Storage: The introduction of the localStorage and sessionStorage APIs allows web applications to store data on the client-side, enabling offline access and improved performance.
+
+Geolocation: HTML5 provides native support for geolocation, enabling web applications to access the user's location information.
+
+Web Workers: Web Workers allow for multithreading in JavaScript, improving performance by enabling tasks to run concurrently in the background.
+
+
+Question 2: What are semantic tags? Give some examples.
+
+Semantic tags are HTML elements that provide meaning and structure to the content within a web page. They help describe the role or purpose of different parts of a document, making it easier for both browsers and developers to understand the content. Some examples of semantic HTML5 tags include:
+
+<header>: Represents the introductory content at the beginning of a section or a page, typically containing logos, navigation menus, and headings.
+
+<nav>: Defines a navigation menu, such as a site's main menu or links to other parts of the website.
+
+<main>: Indicates the main content of the document, excluding headers, footers, and sidebars.
+
+<section>: Represents a thematic grouping of content within a document, often with its own heading.
+
+<article>: Represents a self-contained piece of content, such as a blog post, news article, or forum post.
+
+<aside>: Signifies content that is tangentially related to the surrounding content, often placed in a sidebar.
+
+<footer>: Represents the footer of a section or the entire page, typically containing copyright information and contact details.
+
+<figure> and <figcaption>: These tags are used to embed multimedia content, like images and videos, with a caption.
+
+
+Question 3: List some uses of semantic tags.
+
+Semantic tags provide numerous benefits for web development and accessibility. Here are some common uses:
+
+Improved Accessibility: Semantic tags help screen readers and other assistive technologies understand the document structure, making it easier for people with disabilities to navigate and comprehend web content.
+
+Search Engine Optimization (SEO): Search engines use semantic markup to better understand and index the content, potentially improving a website's search engine rankings.
+
+Structured Styling: Web developers can style semantic elements more consistently, making it easier to create attractive and responsive designs.
+
+Maintainability: Semantic tags make code more readable and maintainable, as the structure of the document is clear and self-explanatory.
+
+Content Isolation: Semantic tags like <article> and <section> help isolate and style specific content sections, improving the control over design and layout.
+
+Responsive Design: Semantic tags facilitate the creation of responsive web designs that adapt to various screen sizes and devices.
+
+Future Compatibility: Semantic tags are forward-compatible, as they are less likely to break when new HTML elements or CSS styles are introduced.
