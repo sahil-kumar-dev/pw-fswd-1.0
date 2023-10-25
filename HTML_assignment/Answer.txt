@@ -1,0 +1,76 @@
+Question 1: What are the inline and block elements in HTML, and what are the differences between them? Name a few inline and block elements.
+
+Answer: Inline Elements:
+
+Inline elements do not start on a new line; they flow within the content.
+They only take up as much width as necessary and do not force a new line.
+Examples of inline elements include <a>, <span>, <em>, <strong>, <img>, and <br>.
+Block Elements:
+
+Block elements typically start on a new line, creating a new "block" of content.
+They take up the full width of their parent container, pushing other elements below them.
+Examples of block elements include <div>, <p>, <h1>, <ul>, and <form>.
+Key Differences:
+
+Block elements create a new block-level formatting context, while inline elements do not.
+Block elements create a visible line break, whereas inline elements do not.
+Block elements can contain both block and inline elements, while inline elements should not contain block elements.
+
+
+Question 2: How to work with images in HTML and explain in detail the <img/> tag's important attributes?
+
+Answer: To work with images in HTML, you use the <img> (image) element. Here are some important attributes of the <img> tag:
+
+src: This attribute specifies the path to the image file. It can be a relative or absolute URL.
+
+alt: The alt attribute provides alternative text for the image. It's important for accessibility and SEO. If the image cannot be displayed, the alt text is shown.
+
+width and height: These attributes set the dimensions of the image in pixels. They help control the image's display size. Using both attributes is recommended to maintain the aspect ratio.
+
+title: The title attribute provides additional information about the image, displayed as a tooltip when the user hovers over the image.
+
+loading: This attribute specifies how the browser should load the image. Options include "eager," "lazy," or "auto."
+
+decoding: It controls the image decoding process. Options are "async," "sync," and "auto."
+
+srcset: Allows you to provide multiple image files at different resolutions or sizes. The browser selects the most appropriate one based on the user's device.
+
+sizes: Works in conjunction with srcset to specify image sizes based on the viewport width.
+
+Example of an <img> tag:
+
+<img src="image.jpg" alt="A beautiful landscape" width="800" height="600" title="Scenic View">
+
+Question 3: How to create lists in HTML?
+
+Answer: HTML provides two main types of lists: ordered lists (<ol>) and unordered lists (<ul>). Within these lists, you can use list items (<li>) to create individual list items. Here's an example:
+
+<ul>
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Cherries</li>
+</ul>
+
+Question 4: How to interlink web pages and navigate people to other websites?
+
+Answer: To create links and navigate between web pages or direct users to other websites, you can use the <a> (anchor) element:
+
+Internal Links: To link to other pages within your website, you specify the relative path to the target page within the href attribute.
+
+Example: <a href="page.html">Link to another page</a>
+
+External Links: To link to external websites, provide the complete URL within the href attribute.
+
+Example: <a href="https://www.example.com">Visit Example.com</a>
+
+Linking to Email: To create an email link, use the mailto scheme within the href attribute.
+
+Example: <a href="mailto:info@example.com">Email us</a>
+
+Linking to Files: You can also link to various types of files (e.g., PDFs, images) by specifying the file's path within the href attribute.
+
+Relative and Absolute URLs: You can use both relative and absolute URLs depending on whether you are linking to resources within your website or external websites.
+
+Target Attribute: You can use the target attribute to specify where the linked content should open, such as in a new tab or the same window.
+
+Example with target attribute: <a href="https://www.example.com" target="_blank">Visit Example.com</a>
