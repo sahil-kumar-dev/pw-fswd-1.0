@@ -1,0 +1,89 @@
+Question 1. Explain table and its properties?
+
+Answer: Table in HTML is used to organize and display data in rows and columns. It consists of several elements and properties:
+
+<table>: The container element that defines the table.
+
+<tr> (Table Row): Used to define a row within the table. It contains one or more <td> or <th> elements.
+
+<td> (Table Data): Represents individual data cells within a table row.
+
+<th> (Table Header): Used to define header cells in a table. Header cells are typically displayed in bold and are used to label rows or columns.
+
+<caption>: An optional element for providing a title or caption for the table.
+
+colspan and rowspan attributes: These attributes can be used with <td> and <th> elements to specify how many columns or rows a cell should span.
+
+<thead>, <tbody>, and <tfoot>: These elements are used to group rows in the table's header, body, and footer sections, respectively.
+
+border: An attribute that specifies the width of the table's border. However, it's recommended to use CSS for styling tables.
+
+CSS styling: Tables can be styled using CSS to control various aspects, such as borders, spacing, and alignment.
+
+Question 2: Explain all media elements and how they work.
+
+Answer: HTML5 introduced several media elements for embedding multimedia content in web pages. The primary media elements are:
+
+<img> (Image): Used for embedding images in web pages. It has attributes like src (source), alt (alternative text), and width/height for defining image properties.
+
+<audio>: Embeds audio content on a web page. It can have attributes like src for the audio file, controls for a built-in player, and more.
+
+<video>: Embeds video content. It supports attributes like src, controls, width, height, and various source elements for different video formats.
+
+<source>: Used within <audio> and <video> elements to specify multiple media files in different formats. The browser selects the appropriate source based on compatibility.
+
+<iframe>: Embeds external web content or media, like embedded videos from YouTube or Vimeo, by specifying the source URL.
+
+<object>: Provides a way to embed multimedia content, including multimedia players or interactive content, like Flash.
+
+<embed>: Deprecated in HTML5 but used to embed multimedia content in older web pages, such as audio, video, or interactive plugins.
+
+These elements work by specifying the source of the media content using the src attribute or, in the case of <source>, within the <video> or <audio> elements. The controls attribute can be added to enable a default player for audio and video, allowing users to play, pause, and adjust volume.
+
+Question 3: What is GET and POST in a form?
+
+Answer: GET and POST are two HTTP methods used when submitting data in an HTML form:
+
+GET: When you submit a form using the GET method, the form data is appended to the URL as query parameters. This method is suitable for requests that retrieve data from the server. The data is visible in the URL, making it less secure and not suitable for sensitive information. GET requests are cacheable and bookmarkable.
+
+POST: When you submit a form using the POST method, the form data is sent in the HTTP request body, not visible in the URL. This method is used for sending data to the server, such as when submitting a login form with a password. It's more secure for sensitive information and has no length limitations. POST requests are not cacheable and not bookmarkable.
+
+The choice between GET and POST depends on the nature of the data you're submitting and the desired level of security.
+
+Question 4: List all the input types we have in a form.
+
+Answer: HTML forms can contain various input types to collect different types of data. Here are some common input types you can use in a form:
+
+Text Input: <input type="text"> for single-line text input.
+
+Password Input: <input type="password"> for password entry (characters are typically hidden).
+
+Textarea: <textarea> for multi-line text input.
+
+Radio Buttons: <input type="radio"> for selecting a single option from a list.
+
+Checkboxes: <input type="checkbox"> for selecting multiple options from a list.
+
+Select Dropdown: <select> with <option> elements for selecting one option from a list.
+
+File Input: <input type="file"> for uploading files.
+
+Hidden Input: <input type="hidden"> for storing hidden data on the form.
+
+Submit Button: <input type="submit"> to submit the form.
+
+Reset Button: <input type="reset"> to reset the form fields to their initial values.
+
+Button: <input type="button"> or <button> for custom JavaScript actions.
+
+Email Input: <input type="email"> for email address input with built-in validation.
+
+URL Input: <input type="url"> for URL input with built-in validation.
+
+Number Input: <input type="number"> for numeric input with up/down arrows.
+
+Date Input: <input type="date"> for selecting a date.
+
+Time Input: <input type="time"> for selecting a time.
+
+Color Input: <input type="color"> for choosing a color.
